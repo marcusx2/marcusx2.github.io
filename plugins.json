@@ -1,0 +1,32 @@
+[
+  {
+    "name": "MediaPipe for Unity Web",
+    "description": "Integrate MediaPipe Tasks for Web into Unity and unlock real-time AI, face tracking, computer vision, audio, and text capabilities for browser-based applications — including detection and segmentation",
+    "image": "images/MediaPipeForUnityWeb.jpg",
+    "url": "https://af.unity.com/sr/camref:1101lTyGI/destination:https%3A%2F%2Fassetstore.unity.com%2Fpackages%2Ftools%2Fintegration%2Fmediapipe-for-unity-web-ai-face-tracking-computer-vision-ar-363720"
+  },
+  {
+    "name": "Augmented Reality WebGL - Image Tracking WebAR",
+    "description": "Create image-tracking augmented reality experiences for the web with fast, accurate detection and seamless Unity integration.",
+    "image": "images/AugmentedRealityWebGLImageTrackingWebAR.jpg",
+    "url": "https://af.unity.com/sr/camref:1101lTyGI/destination:https%3A%2F%2Fassetstore.unity.com%2Fpackages%2Ftools%2Fintegration%2Faugmented-reality-webgl-image-tracking-webar-241386"
+  },
+  {
+    "name": "WebGL API for Firebase",
+    "description": "Easily integrate Firebase services into your Unity Web projects.",
+    "image": "images/WebGLAPIforFirebase.jpg",
+    "url": "https://af.unity.com/sr/camref:1101lTyGI/destination:https%3A%2F%2Fassetstore.unity.com%2Fpackages%2Ftools%2Futilities%2Fwebgl-api-for-firebase-272421"
+  },
+  {
+    "name": "Recorder WebGL",
+    "description": "Add gameplay recording to your Unity Web projects and capture video directly in the browser.",
+    "image": "images/RecorderWebGL.jpg",
+    "url": "https://af.unity.com/sr/camref:1101lTyGI/destination:https%3A%2F%2Fassetstore.unity.com%2Fpackages%2Ftools%2Futilities%2Frecorder-webgl-209191"
+  },
+  {
+    "name": "Video Player WebGL",
+    "description": "A simple and reliable way to play videos in Web builds. Fully compatible with Safari and easy to integrate.",
+    "image": "images/VideoPlayerWebGL.png",
+    "url": "https://af.unity.com/sr/camref:1101lTyGI/destination:https%3A%2F%2Fassetstore.unity.com%2Fpackages%2Ftools%2Fvideo%2Fvideo-player-webgl-192420"
+  }
+]
