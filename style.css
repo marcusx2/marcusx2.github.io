@@ -81,6 +81,68 @@ justify-content:center;
 width:160px;
 height:160px;
 }
+/* ABOUT */
+.about{
+padding:80px 0;
+border-top:1px solid #222;
+}
+.about h2{
+font-size:32px;
+margin-bottom:40px;
+}
+.about-grid{
+display:grid;
+grid-template-columns:1fr 300px;
+gap:60px;
+align-items:start;
+}
+.about-text p{
+font-size:16px;
+color:#cfcfcf;
+margin-bottom:16px;
+line-height:1.75;
+}
+.about-text strong{
+color:#fff;
+}
+.about-text a{
+color:#fff;
+border-bottom:1px solid #555;
+transition:border-color .2s;
+}
+.about-text a:hover{
+border-color:#fff;
+}
+.about-tags{
+display:flex;
+flex-direction:column;
+gap:28px;
+}
+.tag-group{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+.tag-label{
+font-size:11px;
+font-weight:600;
+letter-spacing:0.12em;
+text-transform:uppercase;
+color:#666;
+}
+.tags{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+}
+.tags span{
+background:#111;
+border:1px solid #2a2a2a;
+border-radius:6px;
+padding:5px 12px;
+font-size:13px;
+color:#ccc;
+}
 /* PLUGINS */
 .plugins{
 padding:80px 0;
@@ -226,10 +288,84 @@ text-align:center;
 .hero-avatar{
 margin-top:30px;
 }
+.about-grid{
+grid-template-columns:1fr;
+gap:40px;
+}
 .scroll-btn.left{
 left:4px;
 }
 .scroll-btn.right{
 right:4px;
+}
+}
+
+/* ABOUT PAGE */
+.about-page{
+padding:80px 0;
+border-top:1px solid #222;
+}
+.about-page-grid{
+display:grid;
+grid-template-columns:1fr 300px;
+gap:60px;
+align-items:start;
+}
+.about-page-text h1{
+font-size:48px;
+margin-bottom:32px;
+}
+.about-page-text p{
+font-size:16px;
+color:#cfcfcf;
+margin-bottom:16px;
+line-height:1.75;
+}
+.about-page-text strong{
+color:#fff;
+}
+.about-page-text a{
+color:#fff;
+border-bottom:1px solid #555;
+transition:border-color .2s;
+}
+.about-page-text a:hover{
+border-color:#fff;
+}
+.about-tags{
+display:flex;
+flex-direction:column;
+gap:28px;
+padding-top:12px;
+}
+.tag-group{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+.tag-label{
+font-size:11px;
+font-weight:600;
+letter-spacing:0.12em;
+text-transform:uppercase;
+color:#666;
+}
+.tags{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+}
+.tags span{
+background:#111;
+border:1px solid #2a2a2a;
+border-radius:6px;
+padding:5px 12px;
+font-size:13px;
+color:#ccc;
+}
+@media(max-width:900px){
+.about-page-grid{
+grid-template-columns:1fr;
+gap:40px;
 }
 }
